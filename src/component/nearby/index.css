@@ -1,0 +1,16 @@
+.nearby__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nearby__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link__name {
+  color: #000;
+  font-size: 16px;
+}
