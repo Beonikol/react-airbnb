@@ -23,11 +23,7 @@ export default function Properties({
         <ListItem title="Місцевий транспорт">
           <span>{transportation}</span>
         </ListItem>
-        <ListItem title="Мови хоста">
-          {languages.map((language, index) => (
-            <span key={index}>{language}</span>
-          ))}
-        </ListItem>
+        <ListItem title="Мови хоста">{languages.join(", ")}</ListItem>
         <ListItem title="Спеціальні пропозиції:">
           <span>{offers}</span>
         </ListItem>
